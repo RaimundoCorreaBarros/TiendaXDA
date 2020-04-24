@@ -1,0 +1,30 @@
+.newslatter {
+    background-color: $smoky-black;
+    width: 100%;
+    color: $white;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto 43px;
+}
+.newslatter__1 {
+    padding: 3rem 3rem 3rem 4rem;
+    grid-column: 1;
+
+    @media (max-width: 576px) {
+        padding: 1rem 1rem 1rem 2rem;
+        
+    }
+}
+
+.newslatter__2 {
+    background-color: $white;
+    grid-column: 2;
+    padding: 3rem 1rem 1rem 1rem;
+    a {
+        display: block;
+        text-decoration: none;
+    }
+}
+input {
+    width: 250px;
+}

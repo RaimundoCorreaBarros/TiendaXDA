@@ -1,0 +1,38 @@
+.header__tienda-button {
+    display: inline-block;
+    color: $smoky-black;
+    border: 1px solid $smoky-black;    
+    padding: .5rem 1.8rem;
+
+    a {
+        text-decoration: none;
+        color: $smoky-black;
+    }
+
+    &:hover {
+        border-color: $granite-gray;
+        a {
+            color: $granite-gray;
+        }
+
+    }
+
+    &:focus {
+        border-color: $granite-gray;
+        a {
+            color: $granite-gray;
+        }
+    }
+
+}
+
+.newslatter__button {
+    background-color: $white;
+    color: $smoky-black;
+    transform: rotate(90deg);
+    border: 0;
+
+    &:hover {
+        color: $smoky-black;
+    }
+}

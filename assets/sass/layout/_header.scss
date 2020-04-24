@@ -1,0 +1,42 @@
+.header__texto {
+    padding: 4rem;
+}
+
+.orden2 {
+    background-image: url(../img/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    @media (max-width: 576px) {
+        min-height: 250px;
+    }
+
+    @media (max-width: 768px){
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__texto {
+        padding: 1rem;
+    }
+    .newslatter {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+
+}
+
+@media (max-width: 769px) {
+    .orden1 {
+        order: 2;
+    }
+    
+    .orden2 {
+        order: 1;
+    }
+}
+
+
+

@@ -1,0 +1,29 @@
+.bg-color {
+    background-color: $white;
+
+    a {
+        color: $smoky-black;
+    }
+
+}
+
+.navbar__titulo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: $smoky-black;
+    color: $white !important;
+    //padding: 1rem;
+    left: 0;
+
+    float: left;
+    transform: rotate(-90deg);
+    font-family: $old-standard;
+
+    @media (max-width: 576px) {
+        transform: rotate(0deg);
+    }
+}
+    
